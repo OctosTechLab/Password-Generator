@@ -1,6 +1,7 @@
 # Password Generator 
 
 NL
+-
 Dit Python-script maakt gebruik van de secrets-module en de string-module om verschillende vormen van willekeurige gegevens te genereren.
 
 secrets.choice("ab"): Dit genereert een willekeurige keuze tussen de karakters "a" en "b". Het resultaat kan ofwel "a" ofwel "b" zijn.
@@ -15,8 +16,10 @@ len(chars): Dit berekent de lengte van de chars-tekenreeks, wat de totale hoevee
 
 ''.join(secrets.choice(chars) for _ in range(45)): Dit genereert een willekeurige tekenreeks van 45 tekens door willekeurige tekens te kiezen uit de chars-tekenreeks, met behulp van een for-lus en de secrets.choice()-functie. Het resultaat is een willekeurige tekenreeks van 45 tekens, die vaak kan worden gebruikt als een sterk wachtwoord of een beveiligingstoken.
 
+==============================================================
 
 EN
+-
 This Python script uses the secrets module and the string module to generate various forms of random data.
 
 secrets.choice("ab"): This generates a random choice between the characters "a" and "b". The result can be either "a" or "b".
