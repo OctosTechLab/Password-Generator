@@ -16,8 +16,7 @@ len(chars): Dit berekent de lengte van de chars-tekenreeks, wat de totale hoevee
 
 ''.join(secrets.choice(chars) for _ in range(45)): Dit genereert een willekeurige tekenreeks van 45 tekens door willekeurige tekens te kiezen uit de chars-tekenreeks, met behulp van een for-lus en de secrets.choice()-functie. Het resultaat is een willekeurige tekenreeks van 45 tekens, die vaak kan worden gebruikt als een sterk wachtwoord of een beveiligingstoken.
 
--
--
+
 
 EN
 -
