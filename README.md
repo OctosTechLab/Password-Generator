@@ -18,7 +18,7 @@ len(chars): Dit berekent de lengte van de chars-tekenreeks, wat de totale hoevee
 
 
 
-EN
+EN-US
 -
 This Python script uses the secrets module and the string module to generate various forms of random data.
 
